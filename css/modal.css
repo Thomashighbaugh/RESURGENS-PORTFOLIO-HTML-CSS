@@ -1,0 +1,388 @@
+
+*,
+*::before,
+*::after {
+
+    margin-right:5%;
+
+}
+html{
+    /*overflow-x: hidden;*/
+    font-family: "Roboto Material", "Droid Sans Mono","Droid Serif", monospace;
+    clear-after: bottom;
+    background:#1f2833;
+    margin: 0;
+    height: 100%;
+    font-size:1em;
+    outline: solid 25px #1f2833;
+}
+body{
+    height:100%;
+    font-family: "Roboto Material", "Droid Sans Mono","Droid Serif", monospace;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.logo {
+    font-size: 1em;
+
+}
+
+.main-nav {
+    margin-top: 15px;
+    display:inline-flex;
+    flex-basis: 50%;
+    flex-direction: row;
+
+}
+.logo a,
+.main-nav a {
+    padding: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+
+    border: #1f2833 5px;
+}
+
+.main-nav a {
+    color: #1f2833;
+    font-size: .99em;
+
+
+}
+
+
+.main-nav a:hover {
+    color: #2E2E30;
+    background-color: #02E0F7;
+
+}header ul{
+    flex-basis: 60%;
+    clear: both;
+    flex-direction: row;
+    margin: 0;
+}
+
+main{
+    height: 100%;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    width:85%;
+    float:right;
+}
+p{
+    font-size: 18px;
+    text-indent: 10%;
+}
+h1 {
+
+    letter-spacing: 0.7em;
+    word-spacing: 0.7em;
+    background-color: #02E0F7;
+    color: #1f2833
+
+}
+h2 {
+    font-size: xx-large;
+    letter-spacing: 15px;
+    word-spacing: 35px;
+}
+h3{
+    font-size: xx-large;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+h4{
+    margin-top: 10%;
+    width: 50%;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    background-color: #02E0F7;
+}
+header{
+    color: #02E0F7;
+    background-color:#1f2833;
+    display:inline-flex;
+    width:100%;
+    margin: 0;
+
+
+    flex-direction: row;
+    text-align: justify;
+    padding: .5em auto;
+    outline: 6px solid #02E0F7;
+
+}
+.logo{
+    display: inline-flex;
+    flex-direction: row;
+    flex-basis: 20%;
+
+}
+
+.hero {
+    padding: 1% 20% 1% 1%;
+
+    color: #1f2833;
+    background-color:#444444;
+    justify-content: center;
+    width: 100%;
+
+    outline: 6px #02E0F7 solid;
+
+}
+.hero > img{
+    width: 100%;
+    border-radius: 25px;
+    height: 30%;
+}
+
+
+section {
+    font-weight: 500;
+    background-color:#1f2833;
+    border:0;
+    margin: 0;
+    display:inline-grid;
+    padding-top: 2%;
+}
+ul {
+    display: compact;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.modal-content{
+    background-color: #444444;
+    color: #02E0F7;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+.modal-body{
+    background-color: #444444;
+    color: #02E0F7;
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.modal-header{
+    background-color: #444444;
+    color: #02E0F7;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    clear: both;
+
+}
+.modal-header > h4 {
+    margin-left: 5%;
+    font-size: 200%;
+    font-weight: 700;
+    color: #444444;
+    background-color: #02E0F7;
+}
+
+
+/*Style Font Awesome Icons*/
+.fab {
+    color: #02E0F7;
+    font-size: 40px;
+}
+.fa{
+    color: #02E0F7;
+    font-size: 40px;
+}
+/*Link Styling*/
+a, a:link, a:visited, a:hover, a:active {
+    background-color: #02E0F7;
+    color:#1f2833;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+
+.grid {
+    justify-content: center;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: 500px 500px 500px;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+    padding: 2% 20% 2%;
+    grid-gap: 5%;
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 25%;
+
+
+}
+
+.box {
+    background-color: #444;
+    color: #02E0F7;
+    overflow: hidden;
+    margin-right: 85%;
+    width: 450px;
+    height: 500px;
+    align-content: center;
+    border-radius: 25px;
+}
+
+.box:nth-child(even) {
+    background-color: #02E0F7;
+
+    color: #444444;
+}
+.container button {
+    padding: 5%;
+    border:0;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: #02E0F7;
+    background-color: #1f2833;
+    width: 50%;
+
+}
+
+.container > img{
+    width: 70%;
+    height: 70%;
+    padding: 5%;
+    border: 0;
+    margin-left: 12%;
+
+}
+
+.box {
+    word-spacing: normal;
+    letter-spacing: normal;
+    clear: both;
+}
+.container:nth-child(even) {
+    background-color: #02E0F7;
+
+
+}
+.container{
+    align-content: center;
+}
+.date{
+    font-size: large;
+    font-family: monospace;
+    text-decoration-color: #02E0F7;
+}
+
+/*aside */
+/*Icon Bar*/
+aside{
+    width: 8%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    text-decoration: #02E0F7;
+    height: 90%;
+    clear-after: both;
+    border-radius: 25px;
+    justify-items: flex-start;
+    outline: 3px solid #02E0F7;
+
+}
+.icon-bar h6{
+    color:#02E0F7;
+    background-color: #444444;
+}
+.icon-bar nav button{
+    font-size: large;
+    flex-basis: 10%;
+    width: 100%;
+}
+
+
+.icon-bar a{
+    background-color:#02E0F7 ;
+    font-weight: 900;
+    text-decoration: #02E0F7;
+    border-radius: 25px;
+display: block;
+    border:0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Compensate for excess margin on outer gallery flex items */
+    width: 100%;
+    background-color: #2E2E30;
+    color:#B866FD;
+    margin-right: 100px ;
+    margin-top: 0;
+}
+
+.gallery-item {
+    /* Minimum width of 24rem and grow to fit available space */
+    /*flex: 30%;*/
+    width:70%;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 3%;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0.3, 0.7);
+    overflow: hidden;
+    background-color: #2E2E30;
+    color: #B866FD;
+}
+
+.gallery-image {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    background-color: #2E2E30;
+    color: #B866FD;
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.15);
+    background-color: #2E2E30;
+    color: #B866FD;
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling.
+
+*/
+
+@supports (display: grid) {
+    .gallery {
+        display: inline-grid;
+        grid-template-columns: repeat(3, minmax(24rem, 1fr));
+        grid-gap: 2rem;
+        background-color: #2E2E30;
+        color: #B866FD;
+    }
+
+    .gallery,
+    .gallery-item {
+        margin: 0;
+        background-color: #2E2E30;
+        color: #B866FD;
+
+    }
+}
