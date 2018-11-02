@@ -191,12 +191,11 @@ h6 {
     width: 100%;
 }
 .modal-header a {
-    height:auto;
+    height: auto;
     text-decoration: none;
     padding: 0;
     margin: 0;
     border: 0;
-
 }
 /*Style Font Awesome Icons*/
 .fab {
