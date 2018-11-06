@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+   vertical-align: baseline;
+    font-family: "Roboto Material", monospace;
+}
+
+html {
+    line-height: 1;
+    background-color: #212121;
+    color: whitesmoke;
+    background-image:url("../img/01.png") ;
+
+}
+
+
+h1{
+    font-size: 100px;
+    padding:10%;
+
+    align-self: center;
+}
+img {
+    width: 100%;
+}
+h2{
+
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+footer{
+    font-size: smaller;
+
+}
